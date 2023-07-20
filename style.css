@@ -219,6 +219,7 @@ header .navbar nav .menu-list li a:hover {
   margin-bottom: 80px;
 }
 .description-content p {
+  padding: 0px 40px;
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
@@ -367,20 +368,28 @@ footer {
   justify-content: center;
   gap: 10%;
   background-color: #3E3E3E;
+  align-items: center;
 }
 footer .footer-part_1 p {
+  margin: 20px 0px;
   font-size: 12px;
   color: white;
 }
 footer .footer-part_2 p {
+  margin: 20px 0px;
   font-size: 12px;
   color: white;
 }
+footer .footer-part_3 {
+  text-align: center;
+}
 footer .footer-part_3 p {
+  margin: 20px 0px;
   font-size: 12px;
   color: white;
 }
 footer .footer-part_3 img {
+  margin: 10px 10px;
   width: 35px;
   -o-object-fit: cover;
      object-fit: cover;
