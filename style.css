@@ -228,20 +228,28 @@ header .navbar nav .menu-list li a:hover {
   color: #000000;
   margin-bottom: 20px;
 }
-
-.grid-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-left: 170px;
-  margin-right: 90px;
+.description-content .title-wrap {
+  margin-top: 180px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 30px;
 }
-.grid-cards .card {
+
+.wrap-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.wrap-cards .card {
+  margin: 4% 2%;
+  height: 350px;
   width: 354px;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
 }
-.grid-cards .card h3 {
+.wrap-cards .card h3 {
   font-size: 20px;
   font-weight: 600;
   color: #ffffff;
@@ -249,11 +257,11 @@ header .navbar nav .menu-list li a:hover {
   border-radius: 44.5px 44.5px 0px 0px;
   background: #65AD5E;
 }
-.grid-cards .card ul {
+.wrap-cards .card ul {
   padding: 30px;
   margin-left: 93px;
 }
-.grid-cards .card ul li {
+.wrap-cards .card ul li {
   padding: 10px;
   text-align: left;
   font-size: 18px;
@@ -261,13 +269,14 @@ header .navbar nav .menu-list li a:hover {
   color: #000000;
   margin-bottom: 10px;
 }
-.grid-cards .card1 {
+.wrap-cards .card1 {
+  margin: 4% 2%;
   width: 354px;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
 }
-.grid-cards .card1 h3 {
+.wrap-cards .card1 h3 {
   font-size: 20px;
   font-weight: 600;
   color: #ffffff;
@@ -275,11 +284,11 @@ header .navbar nav .menu-list li a:hover {
   border-radius: 44.5px 44.5px 0px 0px;
   background: #598755;
 }
-.grid-cards .card1 ul {
+.wrap-cards .card1 ul {
   padding: 30px;
   margin-left: 93px;
 }
-.grid-cards .card1 ul li {
+.wrap-cards .card1 ul li {
   padding: 10px;
   text-align: left;
   font-size: 18px;
@@ -287,13 +296,33 @@ header .navbar nav .menu-list li a:hover {
   color: #000000;
   margin-bottom: 10px;
 }
-.grid-cards .card2 {
+.wrap-cards .card1 .list-bis {
+  padding: 30px;
+  margin-left: 45px;
+  width: 300px;
+}
+.wrap-cards .card1 .list-bis li {
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.wrap-cards .card1 img {
+  width: 18%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wrap-cards .card2 {
+  margin: 4% 2%;
+  height: 440px;
   width: 354px;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
 }
-.grid-cards .card2 h3 {
+.wrap-cards .card2 h3 {
   font-size: 20px;
   font-weight: 600;
   color: #ffffff;
@@ -301,15 +330,32 @@ header .navbar nav .menu-list li a:hover {
   border-radius: 44.5px 44.5px 0px 0px;
   background: #DAA437;
 }
-.grid-cards .card2 ul {
-  padding: 30px;
-  margin-left: 93px;
-}
-.grid-cards .card2 ul li {
-  padding: 10px;
-  text-align: left;
-  font-size: 18px;
-  font-weight: 300;
+.wrap-cards .card2 p {
+  line-height: 40px;
+  padding-top: 30px;
+  margin: auto;
   color: #000000;
-  margin-bottom: 10px;
+  font-size: 18px;
+  width: 300px;
+}
+
+.btn-devis {
+  margin-top: 130px;
+  text-align: center;
+}
+.btn-devis a {
+  text-decoration: none;
+}
+.btn-devis a h3 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.btn-devis .button {
+  border-radius: 11px;
+  padding: 10px 40px;
+  display: inline;
+  background-color: #8E1534;
 }/*# sourceMappingURL=style.css.map */

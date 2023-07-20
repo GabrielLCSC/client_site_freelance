@@ -1,3 +1,5 @@
+// Set up
+
 *{
     margin: 0;
     padding: 0;
@@ -36,6 +38,7 @@
     src: url('fonts/Montserrat-ExtraBold.ttf') format('truetype');
     }
 
+    // header
 header{
     position: sticky;
     z-index: 10;
@@ -179,6 +182,7 @@ header{
     }
 }
 
+// section main accueil
 .accueil-content{
     height: 573px;
     width: 100%;
@@ -234,6 +238,7 @@ header{
     }
 }
 
+// section main services
 .description-content{
     text-align: center;
     h3{
@@ -253,13 +258,23 @@ header{
         color: #000000;
         margin-bottom: 20px;
     }
+    .title-wrap{
+        margin-top: 180px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #000000;
+        margin-bottom: 30px;
+    }
 }
-.grid-cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 170px;
-    margin-right: 90px;
+
+// section main cards services
+.wrap-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     .card{
+        margin: 4% 2%;
+        height: 350px;
         width: 354px;
         text-align: center;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -287,6 +302,7 @@ header{
         }
     }
     .card1{
+        margin: 4% 2%;
         width: 354px;
         text-align: center;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -312,8 +328,27 @@ header{
                 margin-bottom: 10px;
             }
         }
+        .list-bis{
+            padding: 30px;
+            margin-left: 45px;
+            width: 300px;
+            li{
+                padding: 10px;
+                text-align: left;
+                font-size: 18px;
+                font-weight: 300;
+                color: #000000;
+                margin-bottom: 10px;
+            }
+        }
+        img{
+            width: 18%;
+            object-fit: cover;
+        }
     }
     .card2{
+        margin: 4% 2%;
+        height: 440px;
         width: 354px;
         text-align: center;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -327,17 +362,34 @@ header{
             border-radius: 44.5px 44.5px 0px 0px;
             background: #DAA437;
         }
-        ul{
-            padding: 30px;
-            margin-left: 93px;
-            li{
-                padding: 10px;
-                text-align: left;
-                font-size: 18px;
-                font-weight: 300;
-                color: #000000;
-                margin-bottom: 10px;
-            }
+        p{
+            line-height: 40px;
+            padding-top: 30px;
+            margin: auto;
+            color: #000000;
+            font-size: 18px;
+            width: 300px;
         }
+    }
+}
+
+.btn-devis{
+    margin-top: 130px;
+    text-align: center;
+    a{
+    text-decoration: none;
+    h3{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    }
+    .button{
+    border-radius: 11px;
+    padding: 10px 40px;
+    display: inline;
+    background-color: #8E1534
     }
 }
