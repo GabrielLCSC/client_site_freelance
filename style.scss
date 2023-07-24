@@ -121,13 +121,12 @@ header{
                 }
                 
                 .menu-list {
+                background-color: rgb(255, 255, 255);
                 position: absolute;
-                top: 80px;
+                top: 0;
                 left: 0;
                 width: 100%;
-                border-radius: 20px;
-                background-color: #ffffff58;
-                backdrop-filter: blur(10px);
+                border-radius: 0px;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
@@ -136,9 +135,10 @@ header{
                 transition: all 0.3s ease-in-out;
                     
                 &.active {
+                    
                     opacity: 1;
                     pointer-events: all;
-                    top: 100px;
+                    top: 65px;
                     
                     li {
                     opacity: 1;
