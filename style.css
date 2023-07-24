@@ -89,7 +89,7 @@ header .navbar nav .menu-list li a {
   color: #000000;
   text-decoration: none;
   padding: 30px;
-  font-size: 1.6rem;
+  font-size: 16px;
   font-weight: 500;
   transition: all 0.2s ease;
 }
@@ -153,7 +153,7 @@ header .navbar nav .menu-list li a:hover {
     transition-delay: 0.4s;
   }
   header .navbar nav .menu-list li a {
-    font-size: 1.6rem;
+    font-size: 16px;
     color: #000000;
     padding: 0px;
   }
@@ -174,14 +174,14 @@ header .navbar nav .menu-list li a:hover {
 .accueil-content .accueil-text h1 {
   padding-top: 160px;
   text-align: center;
-  font-size: 48px;
+  font-size: 4.6rem;
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 70px;
 }
 .accueil-content .accueil-text h2 {
   text-align: center;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 20px;
@@ -196,7 +196,7 @@ header .navbar nav .menu-list li a:hover {
 }
 .accueil-content .accueil-text div a h3 {
   text-align: center;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 300;
   color: #ffffff;
   margin-bottom: 20px;
@@ -212,8 +212,10 @@ header .navbar nav .menu-list li a:hover {
   text-align: center;
 }
 .description-content h3 {
+  margin-left: 7%;
+  margin-right: 7%;
   margin-top: 180px;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 600;
   color: #000000;
   margin-bottom: 80px;
@@ -224,14 +226,14 @@ header .navbar nav .menu-list li a:hover {
   margin-right: auto;
   max-width: 800px;
   text-align: left;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 300;
   color: #000000;
   margin-bottom: 20px;
 }
 .description-content .title-wrap {
   margin-top: 180px;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 600;
   color: #000000;
   margin-bottom: 30px;
@@ -251,7 +253,7 @@ header .navbar nav .menu-list li a:hover {
   border-radius: 40px;
 }
 .wrap-cards .card h3 {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 600;
   color: #ffffff;
   padding: 26px;
@@ -265,7 +267,7 @@ header .navbar nav .menu-list li a:hover {
 .wrap-cards .card ul li {
   padding: 10px;
   text-align: left;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 300;
   color: #000000;
   margin-bottom: 10px;
@@ -278,7 +280,7 @@ header .navbar nav .menu-list li a:hover {
   border-radius: 40px;
 }
 .wrap-cards .card1 h3 {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 600;
   color: #ffffff;
   padding: 26px;
@@ -292,7 +294,7 @@ header .navbar nav .menu-list li a:hover {
 .wrap-cards .card1 ul li {
   padding: 10px;
   text-align: left;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 300;
   color: #000000;
   margin-bottom: 10px;
@@ -305,7 +307,7 @@ header .navbar nav .menu-list li a:hover {
 .wrap-cards .card1 .list-bis li {
   padding: 10px;
   text-align: left;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 300;
   color: #000000;
   margin-bottom: 10px;
@@ -324,7 +326,7 @@ header .navbar nav .menu-list li a:hover {
   border-radius: 40px;
 }
 .wrap-cards .card2 h3 {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 600;
   color: #ffffff;
   padding: 26px;
@@ -336,7 +338,7 @@ header .navbar nav .menu-list li a:hover {
   padding-top: 30px;
   margin: auto;
   color: #000000;
-  font-size: 18px;
+  font-size: 1.8rem;
   width: 300px;
 }
 
@@ -349,7 +351,7 @@ header .navbar nav .menu-list li a:hover {
 }
 .btn-devis a h3 {
   text-align: center;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 300;
   color: #ffffff;
   margin-bottom: 20px;
@@ -362,6 +364,7 @@ header .navbar nav .menu-list li a:hover {
 }
 
 footer {
+  width: 100%;
   margin-top: 140px;
   display: flex;
   flex-wrap: wrap;
@@ -372,12 +375,12 @@ footer {
 }
 footer .footer-part_1 p {
   margin: 20px 0px;
-  font-size: 12px;
+  font-size: 1.2rem;
   color: white;
 }
 footer .footer-part_2 p {
   margin: 20px 0px;
-  font-size: 12px;
+  font-size: 1.2rem;
   color: white;
 }
 footer .footer-part_3 {
@@ -385,7 +388,7 @@ footer .footer-part_3 {
 }
 footer .footer-part_3 p {
   margin: 20px 0px;
-  font-size: 12px;
+  font-size: 1.2rem;
   color: white;
 }
 footer .footer-part_3 img {

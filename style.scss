@@ -95,7 +95,7 @@ header{
                 color: #000000;
                 text-decoration: none;
                 padding: 30px;
-                font-size: 1.6rem;
+                font-size: 16px;
                 font-weight: 500;
                 transition: all 0.2s ease;
                 }
@@ -169,7 +169,7 @@ header{
                     }
 
                     a {
-                    font-size: 1.6rem;
+                    font-size: 16px;
                     color: #000000;
                     padding: 0px;
                     }
@@ -199,14 +199,14 @@ header{
         h1{
             padding-top: 160px;
             text-align: center;
-            font-size: 48px;
+            font-size: 4.6rem;
             font-weight: 600;
             color: #ffffff;
             margin-bottom: 70px;
         }
         h2{
             text-align: center;
-            font-size: 24px;
+            font-size: 2.4rem;
             font-weight: 600;
             color: #ffffff;
             margin-bottom: 20px;
@@ -220,7 +220,7 @@ header{
             text-decoration: none;
             h3{
                 text-align: center;
-                font-size: 14px;
+                font-size: 1.4rem;
                 font-weight: 300;
                 color: #ffffff;
                 margin-bottom: 20px;
@@ -241,8 +241,10 @@ header{
 .description-content{
     text-align: center;
     h3{
+        margin-left: 7%;
+        margin-right: 7%;
         margin-top: 180px;
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: 600;
         color: #000000;
         margin-bottom: 80px;
@@ -253,14 +255,14 @@ header{
         margin-right: auto;
         max-width: 800px;
         text-align: left;
-        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: 300;
         color: #000000;
         margin-bottom: 20px;
     }
     .title-wrap{
         margin-top: 180px;
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: 600;
         color: #000000;
         margin-bottom: 30px;
@@ -281,7 +283,7 @@ header{
         border-radius: 40px;
 
         h3{
-            font-size: 20px;
+            font-size: 2rem;
             font-weight: 600;
             color: #ffffff;
             padding: 26px;
@@ -294,7 +296,7 @@ header{
             li{
                 padding: 10px;
                 text-align: left;
-                font-size: 18px;
+                font-size: 1.8rem;
                 font-weight: 300;
                 color: #000000;
                 margin-bottom: 10px;
@@ -309,7 +311,7 @@ header{
         border-radius: 40px;
 
         h3{
-            font-size: 20px;
+            font-size: 2rem;
             font-weight: 600;
             color: #ffffff;
             padding: 26px;
@@ -322,7 +324,7 @@ header{
             li{
                 padding: 10px;
                 text-align: left;
-                font-size: 18px;
+                font-size: 1.8rem;
                 font-weight: 300;
                 color: #000000;
                 margin-bottom: 10px;
@@ -335,7 +337,7 @@ header{
             li{
                 padding: 10px;
                 text-align: left;
-                font-size: 18px;
+                font-size: 1.8rem;
                 font-weight: 300;
                 color: #000000;
                 margin-bottom: 10px;
@@ -355,7 +357,7 @@ header{
         border-radius: 40px;
 
         h3{
-            font-size: 20px;
+            font-size: 2rem;
             font-weight: 600;
             color: #ffffff;
             padding: 26px;
@@ -367,7 +369,7 @@ header{
             padding-top: 30px;
             margin: auto;
             color: #000000;
-            font-size: 18px;
+            font-size: 1.8rem;
             width: 300px;
         }
     }
@@ -381,7 +383,7 @@ header{
     text-decoration: none;
     h3{
         text-align: center;
-        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: 300;
         color: #ffffff;
         margin-bottom: 20px;
@@ -397,6 +399,7 @@ header{
 
 // section footer
 footer{
+    width: 100%;
     margin-top: 140px;
     display: flex;
     flex-wrap: wrap;
@@ -407,14 +410,14 @@ footer{
     .footer-part_1{
         p{
             margin: 20px 0px;
-            font-size: 12px;
+            font-size: 1.2rem;
             color: white;
         }
     }
     .footer-part_2{
         p{
             margin: 20px 0px;
-            font-size: 12px;
+            font-size: 1.2rem;
             color: white;
         }
     }
@@ -422,7 +425,7 @@ footer{
         text-align: center;
         p{
             margin: 20px 0px;
-            font-size: 12px;
+            font-size: 1.2rem;
             color: white;
         }
         img{
